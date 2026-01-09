@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+}
+
+/* shared styles */
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+}
+
+.common-btn{
+    padding: 12px 16px;
+    border-radius: 4px;
+    background-color: #30B868;
+    font-weight: 600;
+    font-size: 16px;
+    align-items: center;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.common-btn:hover{
+    background-color: navajowhite;
+    color: #000000;
+    transform: translateY(-2px);
+}
+
+.display-flex{
+    display: flex;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.icon-style{
+    background-color: #F95555;
+    border-radius: 1000px;
+    padding: 8px;
+}
+
+main section{
+    margin-top: 110px;
+}
+/* nav styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 120px;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+   
+}
+
+nav li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 32px;
+}
+
+.nav-img{
+    width: 139px;
+    height: 60px;
+}
+
+
+
+/* header banner */
+.banner{
+    background-image: url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.primary-btn{
+    background-color: #FFFFFF;
+    color: #30B868;
+    padding: 8px 12px;
+    border-radius: 1000px;
+    border: none;
+    align-items: center;
+    margin-bottom: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.primary-btn:hover{
+    background-color: navajowhite;
+    color: #000000;
+    transform: translateY(-2px);
+}
+
+.banner-content{
+    padding: 115px 120px 179px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.banner-main-heading{
+    margin-bottom: 16px;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.banner-heading1{
+    color: #FFFFFF;
+}
+
+.banner-heading2{
+    color: #30B868;
+}
+
+.banner-description{
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 24px;
+}
+
+.secondary-btn{
+    background-color: transparent;
+    color: #FFFFFF;
+    padding: 12px;
+    margin-left: 16px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.secondary-btn:hover{
+    background-color: navajowhite;
+    color: #000000;
+    transform: translateY(-2px);
+}
+
+/* notes section  */
+
+.notes-container{
+    justify-content: center;
+    gap: 24px;
+    margin-top: 44px;
+}
+
+.note-description{
+    padding: 16px 14px 30px 14px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #627382;
+}
+
+.note{
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    padding-top: 70px;
+    padding-bottom: 16px;
+}
+
+.note-title{
+    font-weight: 600;
+    font-size: 24px;
+    color: #001931;
+}
+
+.note-section-title{
+    font-weight: 700;
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+
+.note-section-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #627382;
+}
+
